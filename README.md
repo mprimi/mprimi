@@ -1,6 +1,15 @@
-# Readme
+# Marco Primi
 
-This website is built with [Jekyll](https://jekyllrb.com/) and it's based on [DashingCode's Front Cover theme](https://github.com/dashingcode/front-cover)
+### Homepage source
+
+🌐 https://mprimi.github.io/mprimi/
+
+Built with [Jekyll](https://jekyllrb.com/).
+Based on [DashingCode's Front Cover theme](https://github.com/dashingcode/front-cover).
+
+Are you reading this because you want to build a similar website?
+Let me help you! ✌️
+
 
 ## Front Cover License
 
