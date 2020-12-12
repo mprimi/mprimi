@@ -12,7 +12,7 @@ linkedin_username: marcoprimi
 soundcloud_username:  djallyoucaneat
 notes_url: "https://github.com/mprimi/notes"
 email: marco@mpri.me
-public_key_url: "/marco.txt"
+public_key_url: "marco.txt"
 
 # Images
 avatar: yes
