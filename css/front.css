@@ -1,7 +1,7 @@
 body {
-    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    font-family: 'Share Tech Mono', mono;
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
@@ -29,7 +29,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 4em;
-    font-family: 'Open Sans';
+    font-family: 'Roboto', sans-serif;
     margin: -10px 0;
 }
 h3 {
