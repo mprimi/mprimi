@@ -32,6 +32,12 @@ h1 {
     font-family: 'Roboto', sans-serif;
     margin: -10px 0;
 }
+h2 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
 h3 {
     color: white;
     padding-bottom: 20px;
