@@ -5,12 +5,7 @@
 🌐 https://www.mpri.me
 🌐 https://mprimi.github.io/mprimi/
 
-Built with [Jekyll](https://jekyllrb.com/).
-Based on [DashingCode's Front Cover theme](https://github.com/dashingcode/front-cover).
-
-Are you reading this because you want to build a similar website?
-Let me help you! ✌️
-
+CSS based on [DashingCode's Front Cover theme](https://github.com/dashingcode/front-cover).
 
 ## Front Cover License
 

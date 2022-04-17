@@ -1,42 +1,41 @@
----
-permalink: /
----
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <title>Marco Primi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="{{ site.description }}">
+        <meta name="description" content="Homepage of Marco Primi, Freelance Hacker">
+        <meta name="keywords" content="distributed systems, software engineering, cloud infrastructure">
+        <meta name="author" content="Marco Primi">
         <meta name="google-site-verification" content="4ES9sffEZnSCM-1eBjySsdb7CGi79w03Pl_brXp0QbM" />
         <meta name="msvalidate.01" content="A96E875EFD8015B2A7DE20F4FA6AB3DF" />
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
+        <link rel="canonical" href="https://www.mpri.me">
+        <link rel="shortcut icon" href="imgs/favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="css/front.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap" >
     </head>
     <body>
         <div class="content">
-          <img src="{{ site.front_img_path }}" id="fullscreen">
-          <img src="{{ site.avatar_img_path }}" id="avatar">
+          <img src="imgs/background.jpg" id="fullscreen">
+          <img src="imgs/avatar.jpg" id="avatar">
 
-            <h1>{{ site.name }}</h1>
-            <h2>{{ site.subname }}</h2>
-            <h3>{{ site.subsubname }}</h3>
+            <h1>Marco Primi</h1>
+            <h2>a.k.a. mprime</h2>
+            <h3>🌐 Dependable Distributed Systems <br /> 🌱 Organic Social Networks <br /> 🏴‍☠️ Hack The Planet!<br /> 🌈 Game-B is ON!</h3>
 
                 <ul>
-                  <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
-                  <li><a class="fa fa-2x fa-tree" href="{{ site.skill_tree_url }}"><span class="description">Skill Tree</span></a></li>
-                  <li><a class="fa fa-2x fa-ellipsis-h" href="{{ site.notes_url }}"><span class="description">Notes</span></a></li>
+                  <li><a class="fa fa-2x fa-envelope" href="mailto:marco@mpri.me"><span class="description">Email</span></a></li>
+                  <li><a class="fa fa-2x fa-tree" href="./skills"><span class="description">Skill Tree</span></a></li>
+                  <li><a class="fa fa-2x fa-ellipsis-h" href="https://notes.mpri.me"><span class="description">Notes</span></a></li>
                 </ul>
                 <ul>
-                  <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
-                  <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
-                  <li><a class="fa fa-2x fa-graduation-cap" href="{{ site.scholar_url }}"><span class="description">Publications</span></a></li>
-                  <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/{{ site.soundcloud_username }}"><span class="description">Soundcloud</span></a></li>
-                  <li><a class="fa fa-2x fa-key" href="{{ site.public_key_url }}"><span class="description">PGP Key</span></a></li>
+                  <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/marcoprimi"><span class="description">LinkedIn</span></a></li>
+                  <li><a class="fa fa-2x fa-github" href="https://github.com/mprimi"><span class="description">GitHub</span></a></li>
+                  <li><a class="fa fa-2x fa-graduation-cap" href="https://scholar.google.com/citations?user=IFUk6roAAAAJ"><span class="description">Publications</span></a></li>
+                  <li><a class="fa fa-2x fa-soundcloud" href="https://soundcloud.com/djallyoucaneat"><span class="description">Soundcloud</span></a></li>
+                  <li><a class="fa fa-2x fa-key" href="./marco.txt"><span class="description">PGP Key</span></a></li>
                 </ul>
         </div>
 
